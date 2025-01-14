@@ -1,11 +1,13 @@
-import { Link } from "@nextui-org/link";
+"use client"
+import Link from "next/link";
 import { Snippet } from "@nextui-org/snippet";
 import { Code } from "@nextui-org/code";
-import { button as buttonStyles } from "@nextui-org/theme";
+import { button as buttonStyles, card as cardStyles } from "@nextui-org/theme";
 
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
+import { Card, CardBody, CardHeader, CardFooter, Image } from "@nextui-org/react";
 
 export default function Home() {
   return (
@@ -50,6 +52,45 @@ export default function Home() {
             Get started by editing <Code color="primary">app/page.tsx</Code>
           </span>
         </Snippet>
+      </div>
+
+      <div className="flex flex-row justify-stretch gap-4 max-w-5xl">
+        <Link href={"https://thispersondoesnotexist.com"} passHref >
+          <Card className="max-w-xl" isFooterBlurred>
+            <Image
+              removeWrapper
+              className="w-xl h-xl"
+              src="/promotional1.jpg"
+            />
+            <CardFooter className="justify-center before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large top-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+              <h2 className="font-bold text-3xl">About Us</h2>
+            </CardFooter>
+          </Card>
+        </Link>
+        <Link href={"https://thispersondoesnotexist.com"} passHref >
+          <Card className="max-w-xl" isFooterBlurred>
+            <Image
+              removeWrapper
+              className="w-xl h-xl"
+              src="/promotional2.jpg"
+            />
+            <CardFooter className="justify-center before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large top-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+              <h2 className="font-bold text-3xl">Ocean Mapping</h2>
+            </CardFooter>
+          </Card>
+        </Link>
+        <Link href={"https://thispersondoesnotexist.com"} passHref >
+          <Card className="max-w-xl" isFooterBlurred>
+            <Image
+              removeWrapper
+              className="w-xl h-xl"
+              src="/promotional3.jpg"
+            />
+            <CardFooter className="justify-center before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large top-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+              <h2 className="font-bold text-3xl">Vessels</h2>
+            </CardFooter>
+          </Card>
+        </Link>
       </div>
     </section>
   );
