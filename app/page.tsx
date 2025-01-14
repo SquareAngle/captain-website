@@ -26,7 +26,6 @@ export default function Home() {
 
       <div className="flex gap-3">
         <Link
-          isExternal
           className={buttonStyles({
             color: "primary",
             radius: "full",
@@ -37,7 +36,6 @@ export default function Home() {
           Documentation
         </Link>
         <Link
-          isExternal
           className={buttonStyles({ variant: "bordered", radius: "full" })}
           href={siteConfig.links.github}
         >
@@ -52,6 +50,12 @@ export default function Home() {
             Get started by editing <Code color="primary">app/page.tsx</Code>
           </span>
         </Snippet>
+      </div>
+
+      <div className="h=[500px]">
+      <video autoPlay muted loop className="w-screen h-full z-0 shadow-xl rounded-xl">         
+        <source src="/hero_banner.mp4" type="video/mp4"/>       
+      </video>
       </div>
 
       <div className="flex flex-row justify-stretch gap-4 max-w-5xl">

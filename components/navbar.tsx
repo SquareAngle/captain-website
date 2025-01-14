@@ -93,16 +93,10 @@ export const Navbar = () => {
         </NavbarItem>
         {/* <NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem> */}
         <NavbarItem className="hidden md:flex">
-          <Button
-            isExternal
-            as={Link}
-            className="text-sm font-normal text-default-600 bg-default-100"
-            href={siteConfig.links.sponsor}
-            startContent={<HeartFilledIcon className="text-danger" />}
-            variant="flat"
-          >
-            Donate
-          </Button>
+          <div className='flex flex-col items-center'>
+            <Link href="mailto:reza.alam@berkeley.edu">reza.alam@berkeley.edu</Link>
+            <p>+1 (510)570-6325</p>
+          </div>
         </NavbarItem>
       </NavbarContent>
 
@@ -120,7 +114,7 @@ export const Navbar = () => {
             <NavbarMenuItem key={`${item}-${index}`}>
               <Link
                 color={ "foreground" }
-                href="#"
+                href={item.href}
                 size="lg"
               >
                 {item.label}

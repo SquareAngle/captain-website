@@ -34,10 +34,10 @@ export default function TeamPage() {
           <Divider /> */}
           <CardFooter className="flex flex-row justify-center gap-5"> 
             <Link isExternal aria-label="LinkedIn" href="https://linkedin.com">
-              <LinkedinIcon className="text-sky-900" size="36" />
+              <LinkedinIcon className="text-sky-900" size={36} />
             </Link>
             <Link isExternal aria-label="Github" href="https://github.com">
-              <GithubIcon className="text-black dark:text-default-500" size="36" />
+              <GithubIcon className="text-black dark:text-default-500" size={36} />
             </Link>
           </CardFooter>
         </Card>
@@ -59,10 +59,10 @@ export default function TeamPage() {
           <Divider /> */}
           <CardFooter className="flex flex-row justify-center gap-5"> 
             <Link isExternal aria-label="LinkedIn" href="https://linkedin.com">
-              <LinkedinIcon className="text-sky-900" size="36" />
+              <LinkedinIcon className="text-sky-900" size={36} />
             </Link>
             <Link isExternal aria-label="Github" href="https://github.com">
-              <GithubIcon className="text-black dark:text-default-500" size="36" />
+              <GithubIcon className="text-black dark:text-default-500" size={36} />
             </Link>
           </CardFooter>
         </Card>
@@ -84,10 +84,10 @@ export default function TeamPage() {
           <Divider /> */}
           <CardFooter className="flex flex-row justify-center gap-5"> 
             <Link isExternal aria-label="LinkedIn" href="https://linkedin.com">
-              <LinkedinIcon className="text-sky-900" size="36" />
+              <LinkedinIcon className="text-sky-900" size={36} />
             </Link>
             <Link isExternal aria-label="Github" href="https://github.com">
-              <GithubIcon className="text-black dark:text-default-500" size="36" />
+              <GithubIcon className="text-black dark:text-default-500" size={36} />
             </Link>
           </CardFooter>
         </Card>
@@ -109,10 +109,10 @@ export default function TeamPage() {
           <Divider /> */}
           <CardFooter className="flex flex-row justify-center gap-5"> 
             <Link isExternal aria-label="LinkedIn" href="https://linkedin.com">
-              <LinkedinIcon className="text-sky-900" size="36" />
+              <LinkedinIcon className="text-sky-900" size={36} />
             </Link>
             <Link isExternal aria-label="Github" href="https://github.com">
-              <GithubIcon className="text-black dark:text-default-500" size="36" />
+              <GithubIcon className="text-black dark:text-default-500" size={36} />
             </Link>
           </CardFooter>
         </Card>
@@ -134,10 +134,10 @@ export default function TeamPage() {
           <Divider /> */}
           <CardFooter className="flex flex-row justify-center gap-5"> 
             <Link isExternal aria-label="LinkedIn" href="https://linkedin.com">
-              <LinkedinIcon className="text-sky-900" size="36" />
+              <LinkedinIcon className="text-sky-900" size={36} />
             </Link>
             <Link isExternal aria-label="Github" href="https://github.com">
-              <GithubIcon className="text-black dark:text-default-500" size="36" />
+              <GithubIcon className="text-black dark:text-default-500" size={36} />
             </Link>
           </CardFooter>
         </Card>
@@ -159,10 +159,10 @@ export default function TeamPage() {
           <Divider /> */}
           <CardFooter className="flex flex-row justify-center gap-5"> 
             <Link isExternal aria-label="LinkedIn" href="https://linkedin.com">
-              <LinkedinIcon className="text-sky-900" size="36" />
+              <LinkedinIcon className="text-sky-900" size={36} />
             </Link>
             <Link isExternal aria-label="Github" href="https://github.com">
-              <GithubIcon className="text-black dark:text-default-500" size="36" />
+              <GithubIcon className="text-black dark:text-default-500" size={36} />
             </Link>
           </CardFooter>
         </Card>
@@ -184,10 +184,10 @@ export default function TeamPage() {
           <Divider /> */}
           <CardFooter className="flex flex-row justify-center gap-5"> 
             <Link isExternal aria-label="LinkedIn" href="https://linkedin.com">
-              <LinkedinIcon className="text-sky-900" size="36" />
+              <LinkedinIcon className="text-sky-900" size={36} />
             </Link>
             <Link isExternal aria-label="Github" href="https://github.com">
-              <GithubIcon className="text-black dark:text-default-500" size="36" />
+              <GithubIcon className="text-black dark:text-default-500" size={36} />
             </Link>
           </CardFooter>
         </Card>
@@ -209,10 +209,10 @@ export default function TeamPage() {
           <Divider /> */}
           <CardFooter className="flex flex-row justify-center gap-5"> 
             <Link isExternal aria-label="LinkedIn" href="https://linkedin.com">
-              <LinkedinIcon className="text-sky-900" size="36" />
+              <LinkedinIcon className="text-sky-900" size={36} />
             </Link>
             <Link isExternal aria-label="Github" href="https://github.com">
-              <GithubIcon className="text-black dark:text-default-500" size="36" />
+              <GithubIcon className="text-black dark:text-default-500" size={36} />
             </Link>
           </CardFooter>
         </Card>
@@ -234,10 +234,10 @@ export default function TeamPage() {
           <Divider /> */}
           <CardFooter className="flex flex-row justify-center gap-5"> 
             <Link isExternal aria-label="LinkedIn" href="https://linkedin.com">
-              <LinkedinIcon className="text-sky-900" size="36" />
+              <LinkedinIcon className="text-sky-900" size={36} />
             </Link>
             <Link isExternal aria-label="Github" href="https://github.com">
-              <GithubIcon className="text-black dark:text-default-500" size="36" />
+              <GithubIcon className="text-black dark:text-default-500" size={36} />
             </Link>
           </CardFooter>
         </Card>
@@ -259,10 +259,10 @@ export default function TeamPage() {
           <Divider /> */}
           <CardFooter className="flex flex-row justify-center gap-5"> 
             <Link isExternal aria-label="LinkedIn" href="https://linkedin.com">
-              <LinkedinIcon className="text-sky-900" size="36" />
+              <LinkedinIcon className="text-sky-900" size={36} />
             </Link>
             <Link isExternal aria-label="Github" href="https://github.com">
-              <GithubIcon className="text-black dark:text-default-500" size="36" />
+              <GithubIcon className="text-black dark:text-default-500" size={36} />
             </Link>
           </CardFooter>
         </Card>
@@ -284,10 +284,10 @@ export default function TeamPage() {
           <Divider /> */}
           <CardFooter className="flex flex-row justify-center gap-5"> 
             <Link isExternal aria-label="LinkedIn" href="https://linkedin.com">
-              <LinkedinIcon className="text-sky-900" size="36" />
+              <LinkedinIcon className="text-sky-900" size={36} />
             </Link>
             <Link isExternal aria-label="Github" href="https://github.com">
-              <GithubIcon className="text-black dark:text-default-500" size="36" />
+              <GithubIcon className="text-black dark:text-default-500" size={36} />
             </Link>
           </CardFooter>
         </Card>
@@ -309,10 +309,10 @@ export default function TeamPage() {
           <Divider /> */}
           <CardFooter className="flex flex-row justify-center gap-5"> 
             <Link isExternal aria-label="LinkedIn" href="https://linkedin.com">
-              <LinkedinIcon className="text-sky-900" size="36" />
+              <LinkedinIcon className="text-sky-900" size={36} />
             </Link>
             <Link isExternal aria-label="Github" href="https://github.com">
-              <GithubIcon className="text-black dark:text-default-500" size="36" />
+              <GithubIcon className="text-black dark:text-default-500" size={36} />
             </Link>
           </CardFooter>
         </Card>
@@ -334,10 +334,10 @@ export default function TeamPage() {
           <Divider /> */}
           <CardFooter className="flex flex-row justify-center gap-5"> 
             <Link isExternal aria-label="LinkedIn" href="https://linkedin.com">
-              <LinkedinIcon className="text-sky-900" size="36" />
+              <LinkedinIcon className="text-sky-900" size={36} />
             </Link>
             <Link isExternal aria-label="Github" href="https://github.com">
-              <GithubIcon className="text-black dark:text-default-500" size="36" />
+              <GithubIcon className="text-black dark:text-default-500" size={36} />
             </Link>
           </CardFooter>
         </Card>
@@ -359,10 +359,10 @@ export default function TeamPage() {
           <Divider /> */}
           <CardFooter className="flex flex-row justify-center gap-5"> 
             <Link isExternal aria-label="LinkedIn" href="https://linkedin.com">
-              <LinkedinIcon className="text-sky-900" size="36" />
+              <LinkedinIcon className="text-sky-900" size={36} />
             </Link>
             <Link isExternal aria-label="Github" href="https://github.com">
-              <GithubIcon className="text-black dark:text-default-500" size="36" />
+              <GithubIcon className="text-black dark:text-default-500" size={36} />
             </Link>
           </CardFooter>
         </Card>
@@ -384,10 +384,10 @@ export default function TeamPage() {
           <Divider /> */}
           <CardFooter className="flex flex-row justify-center gap-5"> 
             <Link isExternal aria-label="LinkedIn" href="https://linkedin.com">
-              <LinkedinIcon className="text-sky-900" size="36" />
+              <LinkedinIcon className="text-sky-900" size={36} />
             </Link>
             <Link isExternal aria-label="Github" href="https://github.com">
-              <GithubIcon className="text-black dark:text-default-500" size="36" />
+              <GithubIcon className="text-black dark:text-default-500" size={36} />
             </Link>
           </CardFooter>
         </Card>
@@ -409,10 +409,10 @@ export default function TeamPage() {
           <Divider /> */}
           <CardFooter className="flex flex-row justify-center gap-5"> 
             <Link isExternal aria-label="LinkedIn" href="https://linkedin.com">
-              <LinkedinIcon className="text-sky-900" size="36" />
+              <LinkedinIcon className="text-sky-900" size={36} />
             </Link>
             <Link isExternal aria-label="Github" href="https://github.com">
-              <GithubIcon className="text-black dark:text-default-500" size="36" />
+              <GithubIcon className="text-black dark:text-default-500" size={36} />
             </Link>
           </CardFooter>
         </Card>
@@ -434,10 +434,10 @@ export default function TeamPage() {
           <Divider /> */}
           <CardFooter className="flex flex-row justify-center gap-5"> 
             <Link isExternal aria-label="LinkedIn" href="https://linkedin.com">
-              <LinkedinIcon className="text-sky-900" size="36" />
+              <LinkedinIcon className="text-sky-900" size={36} />
             </Link>
             <Link isExternal aria-label="Github" href="https://github.com">
-              <GithubIcon className="text-black dark:text-default-500" size="36" />
+              <GithubIcon className="text-black dark:text-default-500" size={36} />
             </Link>
           </CardFooter>
         </Card>
@@ -459,10 +459,10 @@ export default function TeamPage() {
           <Divider /> */}
           <CardFooter className="flex flex-row justify-center gap-5"> 
             <Link isExternal aria-label="LinkedIn" href="https://linkedin.com">
-              <LinkedinIcon className="text-sky-900" size="36" />
+              <LinkedinIcon className="text-sky-900" size={36} />
             </Link>
             <Link isExternal aria-label="Github" href="https://github.com">
-              <GithubIcon className="text-black dark:text-default-500" size="36" />
+              <GithubIcon className="text-black dark:text-default-500" size={36} />
             </Link>
           </CardFooter>
         </Card>
