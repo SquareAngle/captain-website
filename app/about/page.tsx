@@ -6,8 +6,8 @@ export default function AboutPage() {
   return (
     <div className="flex flex-col gap-4 items-center">
       <h1 className={title()}>About</h1>
-      <Image
-        src="https://nextui.org/images/hero-card-complete.jpeg"
+      <Image className="max-w-4xl"
+        src="/promotional4.jpg"
        />
       <div>
         <h1 className={title({ size: "sm" })}>Mission and Vision</h1>
