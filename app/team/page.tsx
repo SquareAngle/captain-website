@@ -14,7 +14,7 @@ import {
 export default function TeamPage() {
 
 
-  const list = [
+  const teamList = [
     { 
       name: "Reza Alam, PI",
       img: "/team/reza_alam.png",
@@ -179,11 +179,32 @@ export default function TeamPage() {
     }
   ]
 
+  const advisorList = [
+    { 
+      name: "Prof. Shahab Tayeb",
+      img: "/advisors/shahab_tayeb.jpg",
+      role: "Wireless Communication Advisor",
+      desc: "A professor of Electrical and Computer Engineering at California State University, Fresno, Shahab Tayeb is skilled in Network Security, Cybersecurity, Internet of Things, Wireless Sensor Networks, and Vehicular Networks."
+    },
+    { 
+      name: "Prof. Chunyi Peng",
+      img: "/advisors/chunyi_peng.jpg",
+      role: "Wireless Communication Advisor",
+      desc: "A professor in the Computer Science department of Purdue University, Chunyi Peng aims to improve the performance, reliability, and security of network systems, especially in the realm of mobile computing."
+    },
+    { 
+      name: "Prof. Dalal Alharthi",
+      img: "/advisors/dalal_alharthi.jpg",
+      role: "Cybersecurity Advisor",
+      desc: "A professor in the College of Applied Science & Technology at the University of Arizona, Dalal Alharthi works on cyber resilient frameworks for computer-based systems."
+    }
+  ]
+
   return (
     <div>
       <h1 className={title()}>Meet the Team</h1>
       <div className="flex flex-wrap justify-center max-w-5xl gap-4 py-8 md:py-10">
-        {list.map((item, index) => (
+        {teamList.map((item, index) => (
           <Card key={index} className="max-w-[475px]">
             <CardHeader className="flex flex-col justify-center">
               <Image
@@ -212,6 +233,27 @@ export default function TeamPage() {
                 </Link>
               }
             </CardFooter>
+          </Card>
+        ))}
+      </div>
+      <h1 className={title({ size: "sm" })}>Scientific Advisors</h1>
+      <div className="flex flex-wrap justify-center max-w-5xl gap-4 py-8 md:py-10">
+        {advisorList.map((item, index) => (
+          <Card key={index} className="max-w-[475px]">
+            <CardHeader className="flex flex-col justify-center">
+              <Image
+              alt={item.name}
+              className="object-cover rounded-full"
+              src={item.img}
+              width="200"
+              />
+              <h4 className="font-bold text-large">{item.name}</h4>
+              <p className="text-small text-default-500">{item.role}</p>
+            </CardHeader>
+            <CardBody>
+              <p className="text-center">{item.desc}</p>
+            </CardBody>
+            <Divider />
           </Card>
         ))}
       </div>
