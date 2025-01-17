@@ -9,11 +9,15 @@ export default function AboutPage() {
       <Image className="max-w-4xl"
         src="/promotional4.jpg"
        />
-      <div>
+      <div className="flex flex-col gap-8 justify-center">
         <h1 className={title({ size: "sm" })}>Mission and Vision</h1>
         <p>
-          We are building the "Google Maps for Ships," enabling safer and more efficient maritime navigation. Our fleet of autonomous ocean drones is designed to collect comprehensive wave data, transforming our ability to predict and model oceanic waves. By traveling to precise GPS coordinates and operating sustainably for weeks, these one-meter-long, wind-powered vessels measure key parameters like wave height, water temperature at multiple depths, wind speed/direction, and ocean depth.
-          Using a cutting-edge LoRa mesh network for communication, our drones minimize reliance on satellites while ensuring real-time data transmission. This groundbreaking system aims to revolutionize maritime safety, environmental research, and oceanic monitoring on a global scale.
+          <strong>Our Mission: </strong>
+          To revolutionize maritime navigation and oceanic monitoring through autonomous ocean drones that collect real-time wave data, enhancing safety, sustainability, and environmental research.
+        </p>
+        <p>
+          <strong>Our Vision: </strong>
+          To lead global maritime safety and ocean insights, empowering navigation with real-time data from our fleet of autonomous, wind-powered drones.
         </p>
       </div>
       <div>
@@ -23,8 +27,14 @@ export default function AboutPage() {
             src="/promotional5.jpg"
           />
           <div className="flex flex-col gap-8 justify-center">
-            <p>CaptAIn is equipped with a cutting-edge wave energy converter, allowing it to harness the power of ocean waves to generate the energy required for long-term operation. This sustainable energy solution enables the drones to travel autonomously for weeks without the need for frequent recharging, making them highly efficient and eco-friendly.</p>
-            <p>Additionally, they utilize a LoRa mesh network for real-time data transmission. This communication system reduces the reliance on satellite infrastructure, allowing the drones to share critical oceanic data efficiently over long distances. The LoRa network provides enhanced reliability and connectivity in remote ocean regions, ensuring continuous monitoring and seamless data collection from the fleet of drones.</p>
+            <p>
+              <strong>Wave Energy Converter: </strong>
+              Harnesses ocean waves to generate power, enabling long-term, autonomous operation without frequent recharging. Sustainable and eco-friendly.
+            </p>
+            <p>
+              <strong>LoRa Mesh Network: </strong>
+              Enables real-time data transmission over long distances, reducing reliance on satellites. Ensures reliable connectivity and continuous monitoring in remote ocean regions.
+            </p>
           </div>
         </div>
       </div>
@@ -32,8 +42,14 @@ export default function AboutPage() {
         <h1 className={title({ size: "sm" })}>Applications</h1>
         <div className="flex flex-row gap-6 items-center">
           <div className="flex flex-col gap-8 justify-center">
-            <p>CaptAIn offers a range of interconnected applications that enhance maritime safety, environmental research, oceanic monitoring, and shipping efficiency. By providing real-time data on wave height, wind, ocean temperature, and currents, these drones will help ships navigate safely, avoid hazardous conditions, and optimize routes. This not only reduces the risk of accidents but also contributes to more sustainable and efficient shipping practices.</p>
-            <p>These drones also prove to play a crucial role in environmental research and oceanic monitoring by providing continuous, real-time data on ocean health, climate change, and marine ecosystems. This will enable researchers and organizations to track important environmental shifts and better understand the impacts of climate change on marine life. Together, these capabilities contribute to a deeper understanding of the ocean's dynamic nature and drive meaningful environmental stewardship.</p>
+            <p>
+              <strong>Maritime Safety and Shipping Efficiency: </strong>
+              CaptAIn provides real-time data on wave height, wind, ocean temperature, and currents, helping ships navigate safely and optimize routes. This reduces accidents and supports sustainable, efficient shipping.
+            </p>
+            <p>
+              <strong>Environmental Research and Oceanic Monitoring: </strong>
+              The drones offer continuous data on ocean health, climate change, and marine ecosystems, aiding research on environmental shifts and climate impacts. This fosters environmental stewardship and deeper oceanic understanding.
+            </p>
           </div>
           <Image className="max-w-xs"
             src="/promotional6.png"
