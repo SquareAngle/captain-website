@@ -2,7 +2,7 @@
 
 import { title } from "@/components/primitives";
 import React from "react";
-import {Form, Input, Button} from "@nextui-org/react";
+import {Form, Input, Button, Textarea} from "@nextui-org/react";
 
 export default function ContactPage() {
 
@@ -50,14 +50,14 @@ export default function ContactPage() {
           type="text"
         />
 
-        <Input
+        <Textarea
           isRequired
           label="Message"
-          labelPlacement="outside"
+          labelPlacement="inside"
           name="subject"
           placeholder="Write your message..."
           type="text"
-          fullWidth="true"
+          fullWidth={true}
         />
 
 

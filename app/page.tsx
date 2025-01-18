@@ -68,6 +68,23 @@ export default function Home() {
           </Card>
         </Link>
       </div>
+      <div>
+        <div className="flex flex-row gap-16 justify-center items-center">
+          <h1 className={title({ size: "md" })}>Awards and Recognition:</h1>
+          <div className="flex flex-row justify-center max-w-sm gap-8">
+            <Link href="https://www.bayicorps.com/" passHref>
+              <Image
+                src="https://venturewell.org/wp-content/themes/venturewell2016/inc/img/icorps_shaded.png"
+              />
+            </Link>
+            <Link href="https://aws.amazon.com/activate/activate-landing/" passHref>
+              <Image
+                src="https://cdn.iconscout.com/icon/free/png-256/free-aws-logo-icon-download-in-svg-png-gif-file-formats--cloud-computing-network-server-database-brand-pack-logos-icons-1583149.png?f=webp&w=256"
+              />
+            </Link>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }

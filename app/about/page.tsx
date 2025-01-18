@@ -56,6 +56,14 @@ export default function AboutPage() {
           />
         </div>
       </div>
+      <div className="flex flex-row gap-16 justify-center items-center">
+        <h2 className={title({ size: "sm" })}>Publications:</h2>
+        <p className="text-lg text-center">
+          Arsh Khan, Evan Kuo, Jan Dustin Tengdyantono, Reza Alam, 
+          <strong> Swarm of Self -Powered Ocean Drones for Distributed Ocean Measurement. </strong>
+          30th SNAME Offshore Symposium, Mar 4, 2025
+        </p>
+      </div>
     </div>
   );
 }

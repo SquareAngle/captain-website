@@ -184,7 +184,7 @@ export default function TeamPage() {
       name: "Prof. Shahab Tayeb",
       img: "/advisors/shahab_tayeb.jpg",
       role: "Wireless Communication Advisor",
-      desc: "A professor of Electrical and Computer Engineering at California State University, Fresno, Shahab Tayeb is skilled in Network Security, Cybersecurity, Internet of Things, Wireless Sensor Networks, and Vehicular Networks."
+      desc: "A professor of Electrical and Computer Engineering at California State University, Fresno, Shahab Tayeb is skilled in network security, cybersecurity, the Internet of Things, wireless sensor networks, and vehicular networks."
     },
     { 
       name: "Prof. Chunyi Peng",
@@ -196,7 +196,7 @@ export default function TeamPage() {
       name: "Prof. Dalal Alharthi",
       img: "/advisors/dalal_alharthi.jpg",
       role: "Cybersecurity Advisor",
-      desc: "A professor in the College of Applied Science & Technology at the University of Arizona, Dalal Alharthi works on cyber resilient frameworks for computer-based systems."
+      desc: "A professor in the College of Applied Science and Technology at the University of Arizona, Dalal Alharthi works on cyber resilient frameworks for computer-based systems."
     }
   ]
 
@@ -253,7 +253,6 @@ export default function TeamPage() {
             <CardBody>
               <p className="text-center">{item.desc}</p>
             </CardBody>
-            <Divider />
           </Card>
         ))}
       </div>
