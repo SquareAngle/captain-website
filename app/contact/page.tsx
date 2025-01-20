@@ -15,12 +15,12 @@ export default function ContactPage() {
         <Form
         className="flex flex-row flex-wrap gap-4"
         validationBehavior="native"
-        onReset={() => setAction("reset")}
-        onSubmit={(e) => {
-          e.preventDefault();
-          let data = Object.fromEntries(new FormData(e.currentTarget));
-          setAction(`submit ${JSON.stringify(data)}`);
-        }}
+        // onReset={() => setAction("reset")}
+        // onSubmit={(e) => {
+        //   e.preventDefault();
+        //   let data = Object.fromEntries(new FormData(e.currentTarget));
+        //   setAction(`submit ${JSON.stringify(data)}`);
+        // }}
       >
         <Input
           isRequired
