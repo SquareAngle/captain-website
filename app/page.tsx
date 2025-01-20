@@ -1,13 +1,8 @@
 "use client"
 import Link from "next/link";
-import { Snippet } from "@nextui-org/snippet";
-import { Code } from "@nextui-org/code";
-import { button as buttonStyles, card as cardStyles } from "@nextui-org/theme";
 
-import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
-import { GithubIcon } from "@/components/icons";
-import { Card, CardBody, CardHeader, CardFooter, Image } from "@nextui-org/react";
+import { Card, CardFooter, Image } from "@nextui-org/react";
 
 export default function Home() {
   return (

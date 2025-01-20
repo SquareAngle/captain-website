@@ -1,15 +1,15 @@
 "use client";
 
-import { title } from "@/components/primitives";
 import {Card, CardHeader, CardBody, CardFooter, Divider} from "@nextui-org/react";
 import {Link} from "@nextui-org/link";
 import {Image} from "@nextui-org/image"
 
 import {
-  TwitterIcon,
   GithubIcon,
   LinkedinIcon
 } from "@/components/icons";
+
+import { title } from "@/components/primitives";
 
 export default function TeamPage() {
 
