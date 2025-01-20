@@ -173,19 +173,19 @@ export default function TeamPage() {
   const advisorList = [
     { 
       name: "Prof. Shahab Tayeb",
-      img: "/advisors/shahab_tayeb.jpg",
+      img: "/captain-website/advisors/shahab_tayeb.jpg",
       role: "Wireless Communication Advisor",
       desc: "A professor of Electrical and Computer Engineering at California State University, Fresno, Shahab Tayeb is skilled in network security, cybersecurity, the Internet of Things, wireless sensor networks, and vehicular networks."
     },
     { 
       name: "Prof. Chunyi Peng",
-      img: "/advisors/chunyi_peng.jpg",
+      img: "/captain-website/advisors/chunyi_peng.jpg",
       role: "Wireless Communication Advisor",
       desc: "A professor in the Computer Science department of Purdue University, Chunyi Peng aims to improve the performance, reliability, and security of network systems, especially in the realm of mobile computing."
     },
     { 
       name: "Prof. Dalal Alharthi",
-      img: "/advisors/dalal_alharthi.jpg",
+      img: "/captain-website/advisors/dalal_alharthi.jpg",
       role: "Cybersecurity Advisor",
       desc: "A professor in the College of Applied Science and Technology at the University of Arizona, Dalal Alharthi works on cyber resilient frameworks for computer-based systems."
     }

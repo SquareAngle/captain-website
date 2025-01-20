@@ -15,7 +15,7 @@ export default function Home() {
       
       <div className="h=[500px]">
       <video autoPlay muted loop className="w-screen h-full z-0 shadow-xl rounded-xl">         
-        <source src="/hero_banner.mp4" type="video/mp4"/>       
+        <source src="/captain-website/hero_banner.mp4" type="video/mp4"/>       
       </video>
       </div>
       
