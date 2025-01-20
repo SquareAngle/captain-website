@@ -15,21 +15,12 @@ export default function TeamPage() {
 
 
   const teamList = [
-    { 
-      name: "Reza Alam, PI",
-      img: "/team/reza_alam.png",
-      role: "Prof. Mechanical Engineering",
-      linkedIn: "https://linkedin.com",
-      github: "https://github.com", 
-      hasLinkedIn: true,
-      hasGithub: false
-    },
     {
       name: "Arsh Khan",
       img: "/team/arsh_khan.png",
       role: "PhD, Ocean Engineering",
-      linkedIn: "https://linkedin.com",
-      github: "https://github.com/arshkhan1402", 
+      linkedIn: "https://www.linkedin.com/in/arsh-khan14/",
+      github: "https://github.com/arshkhan1402/", 
       hasLinkedIn: true,
       hasGithub: true
     }, 
@@ -37,8 +28,8 @@ export default function TeamPage() {
       name: "Jan Dustin T.",
       img: "/team/jan_dustin.png",
       role: "MEng, Mech Engineering",
-      linkedIn: "https://linkedin.com",
-      github: "https://github.com", 
+      linkedIn: "https://www.linkedin.com/in/jantengdyantono/",
+      github: "https://github.com/dustinteng/", 
       hasLinkedIn: true,
       hasGithub: true
     },
@@ -55,37 +46,37 @@ export default function TeamPage() {
       name: "Mariëtte Peutz",
       img: "/team/mariette_peutz.png",
       role: "MEng, Bio Engineering",
-      linkedIn: "https://linkedin.com",
+      linkedIn: "https://www.linkedin.com/in/mari%C3%ABtte-peutz/",
       github: "https://github.com", 
       hasLinkedIn: true,
-      hasGithub: true
+      hasGithub: false
     }, 
     {
       name: "Kieran Pereira",
-      img: "https://thispersondoesnotexist.com",
+      img: "/team/kieran_pereira.jpg",
       role: "MEng, Mech Engineering",
-      linkedIn: "https://linkedin.com",
+      linkedIn: "https://www.linkedin.com/in/kieranpereira1/",
       github: "https://github.com", 
       hasLinkedIn: true,
-      hasGithub: true
+      hasGithub: false
     },
     {
       name: "Evan Kuo",
       img: "/team/evan_kuo.png",
       role: "BS, Energy Engineering",
-      linkedIn: "https://linkedin.com",
+      linkedIn: "https://www.linkedin.com/in/evan-kuo-1530422a9/",
       github: "https://github.com", 
       hasLinkedIn: true,
-      hasGithub: true
+      hasGithub: false
     },
     {
       name: "Seongjae Ahn",
       img: "/team/seongjae_ahn.png",
       role: "BS, Mech Engineering",
-      linkedIn: "https://linkedin.com",
+      linkedIn: "https://www.linkedin.com/in/seong-jae-ahn-126838244/",
       github: "https://github.com", 
       hasLinkedIn: true,
-      hasGithub: true
+      hasGithub: false
     },
     {
       name: "Nilesh K.",
@@ -100,46 +91,46 @@ export default function TeamPage() {
       name: "Ian Zhang",
       img: "/team/ian_zhang.png",
       role: "BS, Mech Engineering",
-      linkedIn: "https://linkedin.com",
+      linkedIn: "https://www.linkedin.com/in/ian-zhang-profile/",
       github: "https://github.com", 
       hasLinkedIn: true,
-      hasGithub: true
+      hasGithub: false
     },
     {
       name: "Mekhi Roberts",
       img: "https://thispersondoesnotexist.com",
       role: "BS, Mech Engineering",
-      linkedIn: "https://linkedin.com",
+      linkedIn: "https://www.linkedin.com/in/mekhi-roberts-012a27283/",
       github: "https://github.com", 
       hasLinkedIn: true,
-      hasGithub: true
+      hasGithub: false
     },
     {
       name: "Srisha R.",
       img: "/team/srisha.png",
       role: "BS, Mech Engineering",
-      linkedIn: "https://linkedin.com",
+      linkedIn: "https://www.linkedin.com/in/srisharewatkar/",
       github: "https://github.com", 
       hasLinkedIn: true,
-      hasGithub: true
+      hasGithub: false
     },
     {
       name: "Arlind Shorri",
       img: "/team/arlind_shorri.png",
       role: "BS, Mech Engineering",
-      linkedIn: "https://linkedin.com",
+      linkedIn: "https://www.linkedin.com/in/arlind-shorri-73158b32a/",
       github: "https://github.com", 
       hasLinkedIn: true,
-      hasGithub: true
+      hasGithub: false
     },
     {
       name: "Nick Bui",
       img: "/team/nick_bui.png",
       role: "BS, Electrical Engineering",
-      linkedIn: "https://linkedin.com",
+      linkedIn: "https://www.linkedin.com/in/nickkbuii/",
       github: "https://github.com", 
       hasLinkedIn: true,
-      hasGithub: true
+      hasGithub: false
     },
     {
       name: "Elaf Alahdal",
@@ -161,12 +152,12 @@ export default function TeamPage() {
     },
     {
       name: "Alex Lu",
-      img: "https://thispersondoesnotexist.com",
+      img: "/team/alex_lu.jpg",
       role: "BS, CS Engineering",
-      linkedIn: "https://linkedin.com",
+      linkedIn: "https://www.linkedin.com/in/alex-y-lu/",
       github: "https://github.com", 
       hasLinkedIn: true,
-      hasGithub: true
+      hasGithub: false
     },
     {
       name: "Kaiyu Li",
@@ -203,6 +194,28 @@ export default function TeamPage() {
   return (
     <div>
       <h1 className={title()}>Meet the Team</h1>
+      <div className="flex flex-wrap justify-center max-w-5xl gap-4 py-8 md:py-10">
+        <Card className="max-w-[475px]">
+          <CardHeader className="flex flex-col justify-center">
+            <Image
+            alt="Reza Alam"
+            className="object-cover rounded-full"
+            src="/team/reza_alam.png"
+            width="200"
+            />
+            <h4 className="font-bold text-large">Reza Alam, PI</h4>
+            <p className="text-small text-default-500">Prof. Mechanical Engineering</p>
+          </CardHeader>
+          <CardBody>
+            <p className="text-center">Born in Yazd, a small historic city at the geographic center of Iran, Reza received his BSc in Mechanical Engineering and MSc in Applied Mechanics from Sharif University of Technology, Tehran, Iran. He then joined the Mechanical Engineering program at Massachusetts Institute of Technology, Cambridge, MA. He received his Master of Science in Mechanical Engineering in 2005, Ph.D. in Mechanical Engineering in 2008, and then served as a Postdoctoral associate (2008-2009) and Lecturer (2009-2011) at MIT. In July 2011 Reza joined the faculty of the University of California, Berkeley.</p>
+          </CardBody>
+          <CardFooter className="flex flex-row justify-center gap-5"> 
+            <Link isExternal aria-label="LinkedIn" href="https://linkedin.com">
+              <LinkedinIcon className="text-sky-900" size={36} />
+            </Link>
+          </CardFooter>
+        </Card>
+      </div>
       <div className="flex flex-wrap justify-center max-w-5xl gap-4 py-8 md:py-10">
         {teamList.map((item, index) => (
           <Card key={index} className="max-w-[475px]">

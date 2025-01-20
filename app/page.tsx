@@ -11,7 +11,7 @@ import { Card, CardBody, CardHeader, CardFooter, Image } from "@nextui-org/react
 
 export default function Home() {
   return (
-    <section className="flex flex-col items-center justify-center gap-4">
+    <section className="flex flex-col items-center justify-center gap-16">
       <div className="text-center">
         <h2 className={title({ size: "xsm" })}>
           AI-Driven Distributed Ocean Dynamics Measurement for Shipping Fuel Savings
@@ -81,6 +81,11 @@ export default function Home() {
               <Image
                 src="https://cdn.iconscout.com/icon/free/png-256/free-aws-logo-icon-download-in-svg-png-gif-file-formats--cloud-computing-network-server-database-brand-pack-logos-icons-1583149.png?f=webp&w=256"
               />
+            </Link>
+            <Link href="https://www.energy.gov/" passHref>
+              <Image
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Seal_of_the_United_States_Department_of_Energy.svg/240px-Seal_of_the_United_States_Department_of_Energy.svg.png"
+                />
             </Link>
           </div>
         </div>
