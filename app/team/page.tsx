@@ -17,7 +17,7 @@ export default function TeamPage() {
   const teamList = [
     {
       name: "Arsh Khan",
-      img: "/team/arsh_khan.png",
+      img: "/captain-website/team/arsh_khan.png",
       role: "PhD, Ocean Engineering",
       linkedIn: "https://www.linkedin.com/in/arsh-khan14/",
       github: "https://github.com/arshkhan1402/", 
@@ -26,7 +26,7 @@ export default function TeamPage() {
     }, 
     {
       name: "Jan Dustin T.",
-      img: "/team/jan_dustin.png",
+      img: "/captain-website/team/jan_dustin.png",
       role: "MEng, Mech Engineering",
       linkedIn: "https://www.linkedin.com/in/jantengdyantono/",
       github: "https://github.com/dustinteng/", 
@@ -44,7 +44,7 @@ export default function TeamPage() {
     }, 
     {
       name: "Mariëtte Peutz",
-      img: "/team/mariette_peutz.png",
+      img: "/captain-website/team/mariette_peutz.png",
       role: "MEng, Bio Engineering",
       linkedIn: "https://www.linkedin.com/in/mari%C3%ABtte-peutz/",
       github: "https://github.com", 
@@ -53,7 +53,7 @@ export default function TeamPage() {
     }, 
     {
       name: "Kieran Pereira",
-      img: "/team/kieran_pereira.jpg",
+      img: "/captain-website/team/kieran_pereira.jpg",
       role: "MEng, Mech Engineering",
       linkedIn: "https://www.linkedin.com/in/kieranpereira1/",
       github: "https://github.com", 
@@ -62,7 +62,7 @@ export default function TeamPage() {
     },
     {
       name: "Evan Kuo",
-      img: "/team/evan_kuo.png",
+      img: "/captain-website/team/evan_kuo.png",
       role: "BS, Energy Engineering",
       linkedIn: "https://www.linkedin.com/in/evan-kuo-1530422a9/",
       github: "https://github.com", 
@@ -71,7 +71,7 @@ export default function TeamPage() {
     },
     {
       name: "Seongjae Ahn",
-      img: "/team/seongjae_ahn.png",
+      img: "/captain-website/team/seongjae_ahn.png",
       role: "BS, Mech Engineering",
       linkedIn: "https://www.linkedin.com/in/seong-jae-ahn-126838244/",
       github: "https://github.com", 
@@ -80,7 +80,7 @@ export default function TeamPage() {
     },
     {
       name: "Nilesh K.",
-      img: "/team/nilesh.png",
+      img: "/captain-website/team/nilesh.png",
       role: "BS, Mech Engineering",
       linkedIn: "https://linkedin.com",
       github: "https://github.com", 
@@ -89,7 +89,7 @@ export default function TeamPage() {
     },
     {
       name: "Ian Zhang",
-      img: "/team/ian_zhang.png",
+      img: "/captain-website/team/ian_zhang.png",
       role: "BS, Mech Engineering",
       linkedIn: "https://www.linkedin.com/in/ian-zhang-profile/",
       github: "https://github.com", 
@@ -107,7 +107,7 @@ export default function TeamPage() {
     },
     {
       name: "Srisha R.",
-      img: "/team/srisha.png",
+      img: "/captain-website/team/srisha.png",
       role: "BS, Mech Engineering",
       linkedIn: "https://www.linkedin.com/in/srisharewatkar/",
       github: "https://github.com", 
@@ -116,7 +116,7 @@ export default function TeamPage() {
     },
     {
       name: "Arlind Shorri",
-      img: "/team/arlind_shorri.png",
+      img: "/captain-website/team/arlind_shorri.png",
       role: "BS, Mech Engineering",
       linkedIn: "https://www.linkedin.com/in/arlind-shorri-73158b32a/",
       github: "https://github.com", 
@@ -125,7 +125,7 @@ export default function TeamPage() {
     },
     {
       name: "Nick Bui",
-      img: "/team/nick_bui.png",
+      img: "/captain-website/team/nick_bui.png",
       role: "BS, Electrical Engineering",
       linkedIn: "https://www.linkedin.com/in/nickkbuii/",
       github: "https://github.com", 
@@ -134,7 +134,7 @@ export default function TeamPage() {
     },
     {
       name: "Elaf Alahdal",
-      img: "/team/elaf_alahdal.png",
+      img: "/captain-website/team/elaf_alahdal.png",
       role: "BS, Mech Engineering",
       linkedIn: "https://linkedin.com",
       github: "https://github.com", 
@@ -143,7 +143,7 @@ export default function TeamPage() {
     },
     {
       name: "Navjot Singh",
-      img: "/team/navjot_singh.png",
+      img: "/captain-website/team/navjot_singh.png",
       role: "BS, Mech Engineering",
       linkedIn: "https://linkedin.com",
       github: "https://github.com", 
@@ -152,7 +152,7 @@ export default function TeamPage() {
     },
     {
       name: "Alex Lu",
-      img: "/team/alex_lu.jpg",
+      img: "/captain-website/team/alex_lu.jpg",
       role: "BS, CS Engineering",
       linkedIn: "https://www.linkedin.com/in/alex-y-lu/",
       github: "https://github.com", 
@@ -161,7 +161,7 @@ export default function TeamPage() {
     },
     {
       name: "Kaiyu Li",
-      img: "/team/kaiyu_li.png",
+      img: "/captain-website/team/kaiyu_li.png",
       role: "BS, Mech Engineering",
       linkedIn: "https://linkedin.com",
       github: "https://github.com", 
@@ -200,7 +200,7 @@ export default function TeamPage() {
             <Image
             alt="Reza Alam"
             className="object-cover rounded-full"
-            src="/team/reza_alam.png"
+            src="/captain-website/team/reza_alam.png"
             width="200"
             />
             <h4 className="font-bold text-large">Reza Alam, PI</h4>

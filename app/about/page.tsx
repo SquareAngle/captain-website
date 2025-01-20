@@ -7,7 +7,7 @@ export default function AboutPage() {
     <div className="flex flex-col gap-4 items-center">
       <h1 className={title()}>About</h1>
       <Image className="max-w-4xl"
-        src="/promotional4.jpg"
+        src="/captain-website/promotional4.jpg"
        />
       <div className="flex flex-col gap-8 justify-center">
         <h1 className={title({ size: "sm" })}>Mission and Vision</h1>
@@ -24,7 +24,7 @@ export default function AboutPage() {
         <h1 className={title({ size: "sm" })}>The Technology</h1>
         <div className="flex flex-row gap-6 items-center">
           <Image className="max-w-xs"
-            src="/promotional5.jpg"
+            src="/captain-website/promotional5.jpg"
           />
           <div className="flex flex-col gap-8 justify-center">
             <p>
@@ -52,7 +52,7 @@ export default function AboutPage() {
             </p>
           </div>
           <Image className="max-w-xs"
-            src="/promotional6.png"
+            src="/captain-website/promotional6.png"
           />
         </div>
       </div>

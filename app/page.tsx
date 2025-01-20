@@ -36,7 +36,7 @@ export default function Home() {
             <Image
               removeWrapper
               className="w-xl h-xl"
-              src="/promotional1.jpg"
+              src="/captain-website/promotional1.jpg"
             />
             <CardFooter className="justify-center before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large top-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
               <h2 className="font-bold text-3xl">About Us</h2>
@@ -48,7 +48,7 @@ export default function Home() {
             <Image
               removeWrapper
               className="w-xl h-xl"
-              src="/promotional2.jpg"
+              src="/captain-website/promotional2.jpg"
             />
             <CardFooter className="justify-center before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large top-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
               <h2 className="font-bold text-3xl">Ocean Mapping</h2>
@@ -60,7 +60,7 @@ export default function Home() {
             <Image
               removeWrapper
               className="w-xl h-xl"
-              src="/promotional3.jpg"
+              src="/captain-website/promotional3.jpg"
             />
             <CardFooter className="justify-center before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large top-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
               <h2 className="font-bold text-3xl">Vessels</h2>
@@ -68,10 +68,11 @@ export default function Home() {
           </Card>
         </Link>
       </div>
+
       <div>
         <div className="flex flex-row gap-16 justify-center items-center">
-          <h1 className={title({ size: "md" })}>Awards and Recognition:</h1>
-          <div className="flex flex-row justify-center max-w-sm gap-8">
+          <h1 className={title({ size: "sm" })}>Awards and Recognition:</h1>
+          <div className="flex flex-row justify-center items-center max-w-sm gap-8">
             <Link href="https://www.bayicorps.com/" passHref>
               <Image
                 src="https://venturewell.org/wp-content/themes/venturewell2016/inc/img/icorps_shaded.png"
@@ -90,6 +91,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      
     </section>
   );
 }
