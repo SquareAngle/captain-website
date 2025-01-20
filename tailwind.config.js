@@ -1,5 +1,5 @@
 import {nextui} from '@nextui-org/theme'
-
+/*eslint-env node*/
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
