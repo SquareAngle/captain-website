@@ -21,7 +21,7 @@ export default function Home() {
       
       <div className="text-center">
         <h2 className={subtitle()}>
-          We are building the "Google Maps for Ships," enabling safer and more efficient maritime navigation. Our fleet of autonomous ocean drones is designed to collect comprehensive wave data, transforming our ability to predict and model oceanic waves. By traveling to precise GPS coordinates and operating sustainably for weeks, these one-meter-long, wind-powered vessels measure key parameters like wave height, water temperature at multiple depths, wind speed/direction, and ocean depth.
+          We are building the &quot;Google Maps for Ships,&quot; enabling safer and more efficient maritime navigation. Our fleet of autonomous ocean drones is designed to collect comprehensive wave data, transforming our ability to predict and model oceanic waves. By traveling to precise GPS coordinates and operating sustainably for weeks, these one-meter-long, wind-powered vessels measure key parameters like wave height, water temperature at multiple depths, wind speed/direction, and ocean depth.
         </h2>
       </div>
 
